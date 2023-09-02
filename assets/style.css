@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins:wght@500&family=Rufina:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c2efd4;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home {
+  display: flex;
+  padding-right: 250px;
+  margin-left: 150px;
+}
+
+.home a {
+  font-family: "Rufina", serif;
+  color: #224f34;
+  font-size: 40px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks ul {
+  gap: 57px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navlinks a {
+  color: #224f34;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.shopping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 59px 0 164px;
+}
+
+#icon {
+  fill: #224f34;
+  width: 25px;
+  height: 25px;
+}
+
+.loginbutton {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+#loginBtn {
+  width: 142px;
+  height: 42px;
+  border: 2px solid #224f34;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+#loginBtn a {
+  color: #224f34;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 39px;
+}
+
+.home-page {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+}
+
+.left {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos {
+  width: 75%;
+  height: 90%;
+  display: flex;
+  padding-right: 2rem;
+  flex-direction: column;
+}
+
+.title h1 {
+  color: #224f34;
+  font-size: 86px;
+  font-family: Rufina;
+  font-weight: 700;
+}
+
+.info p {
+  color: #267d49;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 52.8px;
+}
+
+#exploreBtn {
+  width: 258px;
+  height: 74px;
+  background: #224f34;
+  border: none;
+  border-radius: 4px;
+}
+
+#exploreBtn a {
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 23px 88px;
+}
+
+.right {
+  width: 50%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#frame {
+  width: 570px;
+  height: 617px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6bc785;
+  border-radius: 5rem 2rem 5rem 2rem;
+}
+
+#frame img {
+  width: 470px;
+  height: 617px;
+}
